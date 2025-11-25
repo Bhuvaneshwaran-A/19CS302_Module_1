@@ -1,45 +1,35 @@
+
 # EX 2 C program to check whether the attendance is PRESENT using simple if statement.
-## DATE:11/05/2025
+## DATE:
 ## AIM:
 To write a program to check whether the attendance is PRESENT using simple if statement.
 
 ## Algorithm
-1.Start the program.
-
-2.Declare a character array to store attendance input.
-
-3.Use an if statement to compare the input with "PRESENT".
-
-4.If matched, display "Attendance marked as PRESENT".
-
-5.End the program. 
+1. Start. 
+2. Declare a variable value of type char. 
+3. Prompt the user to enter a value. 
+4. Read the value using scanf. 
+5. Check whether the attendance is PRESENT. 
+6. If true, print "Present". 
+7. If false, print " ". 
+8. End.  
 
 ## Program:
 ```
-/*
-Program to check whether the attendance is PRESENT using simple if statement.
-Developed by: Bhuvaneshwaran A
-RegisterNumber: 212223060108  
-*/
-#include <stdio.h>
-#include <string.h>
-
-int main() {
-    char attendance[10] = "PRESENT";
-    
-    if (strcmp(attendance, "PRESENT") == 0) {
-        printf("Attendance marked as PRESENT\n");
-    }
-
-    return 0;
+#include<stdio.h> 
+int main(){ 
+char p1; 
+scanf("%c", &p1); 
+if(p1=='P') 
+{ 
+printf("Present"); 
+} 
+return 0; 
 }
-
 ```
-
 ## Output:
 
-![image](https://github.com/user-attachments/assets/c3d59251-5566-449a-b7d6-0907f1ff0ebc)
-
+![image](https://github.com/user-attachments/assets/c55b68e3-a4c1-4900-8b39-ad6bebe7a64b)
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
